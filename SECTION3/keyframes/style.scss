@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #333;
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 36px;
+}
+
+.square {
+	width: 400px;
+	height: 400px;
+	background-color: gold;
+	border: 3px solid black;
+	animation: color 2s ease-in-out 0.5s infinite;
+}
+
+.square:hover {
+	animation-play-state: paused;
+}
+
+// .two {
+// 	animation-direction: alternate;
+// }
+
+//  animation: NAZWA / CZAS / TIMING-FUNCTION / DELAY / IL> POWTÓRZEŃ/ FILL MODE
+
+@keyframes color {
+	0% {
+		width: 400px;
+		background-color: gold;
+	}
+	50% {
+		width: 800px;
+		background-color: royalblue;
+	}
+	100% {
+		width: 200px;
+		background-color: lime;
+	}
+}
