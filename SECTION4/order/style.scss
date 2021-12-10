@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: #333;
+	font-size: 50px;
+}
+
+section {
+	display: flex;
+}
+
+.square {
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+}
+
+.one {
+	background-color: gold;
+	order: 100;
+}
+
+.two {
+	background-color: lime;
+	order: 0;
+}
+
+.three {
+	background-color: royalblue;
+	order: 0;
+}
+
+.four {
+	background-color: tomato;
+	order: -10;
+}

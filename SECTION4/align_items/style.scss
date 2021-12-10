@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: #333;
+	font-size: 50px;
+}
+
+section {
+	height: 600px;
+	display: flex;
+	background-color: #678;
+
+	// align-content: ;
+	align-items: flex-start;
+	align-items: flex-end;
+	align-items: center;
+	align-items: baseline; // jak np. mamy rozne wielkosci czcionek to baseline wyrównuje konenery w lini prostej
+
+	// justify-content: center;
+	// align-items: center;
+}
+
+.square {
+	width: 20%;
+	// height: 200px;
+	text-align: center;
+}
+
+.one {
+	background-color: gold;
+}
+
+.two {
+	background-color: lime;
+}
+
+.three {
+	background-color: royalblue;
+}
+
+.four {
+	background-color: tomato;
+}
